@@ -7,14 +7,15 @@
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
-    "node":"7.0.0"
+  "engines": {
+    "node": "7.0.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "lodash": "^4.16.6",
     "mongodb": "^2.2.11",
     "mongoose": "^4.6.5"
   }
